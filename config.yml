@@ -1,0 +1,26 @@
+# ================================================================
+#                       Iconic-BottleEXP
+#                         By Alexandr3_
+# ================================================================
+
+options:
+  prefix: '&6[&bIconicBottleEXP&6]&r'
+  bottle-title: '&d&l✧ &aXP Bottle &d&l✧'
+  #IMPORTANT : Do not include numbers in the bottle lore! You must use {xp} on line 2 to display the number of xp and for the bottle to work.
+  bottle-lore: # Variables : {xp} {player}
+    - '&r'
+    - '&fContains &b{xp}xp&f.'
+    - '&fCreator: &6{player}&f.'
+    - '&r'
+    - ' &d&l▸ &eRight&f click to &buse&f.'
+  expAmount-min: 1 # min xp to create bottle
+  expAmount-max: 30 # max xp that a bottle can contain
+  #Available: English (en) French (fr) Espagnol (es) German (germ)
+  #You need restart the server if you change the locale !
+  locale: en
+  item: EXPERIENCE_BOTTLE #You need restart the server if you change this !
+
+permissions:
+  bottle-use: bottlexp.usebottle # Permission needed to use bottle xp
+  player-use: bottlexp.use # Permission needed to use /bottlexp
+  admin-use: bottleadmin.use # Permission needed to use /bottleadmin

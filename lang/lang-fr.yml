@@ -1,0 +1,20 @@
+messages:
+  no-permission: '{prefix} &cVous n''avez pas accès à cette commande !'
+  no-options: '{prefix} &cVeuillez indiquer une option valide !'
+  no-access: '{prefix} &cVous ne pouvez pas utiliser les bouteilles !'
+  notplayer: '{prefix} &cVous n''êtes pas un joueur !'
+
+commands-messages:
+  bottlexp:
+    usage: '{prefix} &fCommande: &b/bottlexp (nombre)&f.'
+    not-number: '{prefix} &cVeuillez indiquer un nombre !'
+    no-valid: '{prefix} &4&lErreur:&c La bouteille n''est pas valide !'
+    expMinMax: '{prefix} &cVeuillez indiquer un nombre compris entre {expMin} et {expMax} !' # Variables : {expMin} {expMax}
+    not-enough-exp: '{prefix} &cVous n''avez pas assez d''xp !'
+    expRecover: '{prefix} &aVous venez de recevoir &b{exp}xp&f !' # Variable : {expMin}
+    bottle-converted: '{prefix} &aVous venez de convertir &6{exp}xp &aen bouteille !' # Variable : {expMin}
+  admin:
+    reload: '{prefix} &bLe fichier de configuration a bien été &arechargé&b !'
+    usage: '{prefix} &fCommande: &6/bottleadmin (reload/version)'
+
+#Traduit par Alexandr3_

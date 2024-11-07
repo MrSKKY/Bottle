@@ -1,0 +1,20 @@
+messages:
+  no-permission: '{prefix} &c¡No tienes acceso a este comando!'
+  no-options: '{prefix} &cPor favor, indique una opción válida.'
+  no-access: '{prefix} &c¡No puedes usar las botellas!'
+  notplayer: '{prefix} &c¡No eres un jugador!'
+
+commands-messages:
+  bottlexp:
+    usage: '{prefix} &fComando: &b/bottlexp (número)&f.'
+    not-number: '{prefix} &cPor favor, introduzca un número.'
+    no-valid: '{prefix} &4&lError:&c ¡La botella no es válida!'
+    expMinMax: '{prefix} &c¡Por favor, introduzca un número entre {expMin} y {expMax} !' # Variables : {expMin} {expMax}
+    not-enough-exp: '{prefix} &c¡No tienes suficiente xp!'
+    expRecover: '{prefix} &a¡Acabas de recibir &b{exp}xp&f!' # Variable : {expMin}
+    bottle-converted: '{prefix} &a¡Acabas de convertir &6{exp}xp &aen una botella!' # Variable : {expMin}
+  admin:
+    reload: '{prefix} &b¡El fichero de configuración ha sido &cargado&b !'
+    usage: '{prefix} &fComando: &6/bottleadmin (reload/version)'
+
+#Traducido por https://www.deepl.com

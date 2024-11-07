@@ -1,0 +1,21 @@
+messages:
+  no-permission: '{prefix} &cDu hast keine Rechte für diesen Befehl!'
+  no-options: '{prefix} &cBitte geben Sie eine gültige Option ein!'
+  no-access: '{prefix} &cDu kannst die Flasche nicht benutzen!'
+  notplayer: '{prefix} &cDu bist kein Spieler!'
+
+commands-messages:
+  bottlexp:
+    usage: '{prefix} &fCommand: &b/bottlexp (number)&f.'
+    not-number: '{prefix} &cBitte benutze eine Zahl!'
+    no-valid: '{prefix} &4&lFehler:&c Die Flasche ist ungültig!'
+    expMinMax: '{prefix} &cBitte geben Sie eine Zahl zwischen {expMin} und {expMax} ein!' # Variables : {expMin} {expMax}
+    not-enough-exp: '{prefix} &cDu hast nicht genug XP!'
+    expRecover: '{prefix} &aDu erhälst gerade &b{exp}xp!' # Variable : {exp}
+    bottle-converted: '{prefix} &aDu hast gerade &6{exp}xp &ain eine XP-Flasche verwandelt' # Variable : {exp}
+    no-inventory-space: '{prefix} &cDu hast nicht genug platz im Inventar!'
+  admin:
+    reload: '{prefix} &bDie Config wurde &aneugeladen&b!'
+    usage: '{prefix} &fCommand: &6/bottleadmin (reload/version)'
+
+#Übersetzt von Rytexs#0001

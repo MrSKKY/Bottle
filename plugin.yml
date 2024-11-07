@@ -1,0 +1,14 @@
+name: IconicBottleEXP
+version: 'v1.3'
+main: fr.alexandre.iconicbottleexp.IconicBottleEXP
+api-version: 1.21
+authors: [ Alexandr3_ ]
+description: Plugin to turn your exp into reusable bottles.
+website: https://alexandr3.fr
+commands:
+  bottlexp:
+    description: Use the player commands of IconicBottleEXP plugin.
+    usage: /<command>
+  bottleadmin:
+    description: Use the admin commands of IconicBottleEXP plugin.
+    usage: /<command>
